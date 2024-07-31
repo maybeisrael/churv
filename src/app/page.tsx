@@ -1,5 +1,6 @@
 import React from 'react'
 import LandingPage from '../components/LandingPage/index';
+import Layout from '@/components/Layout';
 
 
 
@@ -7,7 +8,11 @@ import LandingPage from '../components/LandingPage/index';
 export default function Home() {
   return (
     <main >
-     <LandingPage />
+      <Layout>
+
+         <LandingPage />
+         
+      </Layout>
     </main>
   );
 }
