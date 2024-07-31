@@ -20,7 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${poppins.className} ${newsreader.className}`}>
-      <Layout>{children}</Layout>
+      {/* <Layout>{children}</Layout> */}
+      {children}
       </body>
     </html>
   );
